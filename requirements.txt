@@ -1,8 +1,9 @@
 streamlit==1.28.0
-torch==2.0.1
-torchvision==0.15.2
-monai==1.2.0
-numpy==1.24.3
-pillow==10.0.0
-nibabel==5.1.0
-scikit-image==0.21.0
+torch==2.11.0
+torchvision
+monai==1.6.0
+numpy
+pillow
+nibabel
+scikit-image
+opencv-python-headless
