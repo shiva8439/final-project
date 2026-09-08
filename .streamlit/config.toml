@@ -1,0 +1,13 @@
+[theme]
+primaryColor="#00b8d9"
+backgroundColor="#081521"
+secondaryBackgroundColor="#0b1d2a"
+textColor="#e8f1f7"
+font="sans serif"
+
+[client]
+showErrorDetails = false
+toolbarMode = "minimal"
+
+[server]
+maxUploadSize = 200

@@ -1,0 +1,10 @@
+dataset/
+venv/
+__pycache__/
+results/
+*.pyc
+*.pyo
+*.nii
+*.nii.gz
+*.zip
+checkpoints/
