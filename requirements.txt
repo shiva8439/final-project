@@ -7,3 +7,4 @@ pillow==10.0.0
 nibabel==5.1.0
 scikit-image==0.21.0
 opencv-python-headless
+matplotlib
