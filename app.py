@@ -843,7 +843,7 @@ def main():
                         thresholded_mask,
                         caption=(
                             f"Confidence threshold: "
-                            f"{confidence_threshold:.2f}"
+                            f"{uncertainty_threshold:.2f}"
                         ),
                         use_column_width=True
                     )
