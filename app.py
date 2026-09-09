@@ -784,6 +784,9 @@ def main():
                     )
 
                     confidence_map = uncertainty.squeeze()
+                    
+                    # Normalize confidence map to [0, 1] for visualization
+                    confidence_map = (confidence_map - confidence_map.min()) / (confidence_map.max() - confidence_map.min() + 1e-8)
 
                     # -------------------------------------
                     # DISPLAY
@@ -839,8 +842,8 @@ def main():
                     st.image(
                         thresholded_mask,
                         caption=(
-                            f"Uncertainty threshold: "
-                            f"{uncertainty_threshold:.2f}"
+                            f"Confidence threshold: "
+                            f"{confidence_threshold:.2f}"
                         ),
                         use_column_width=True
                     )
