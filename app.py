@@ -833,7 +833,7 @@ def main():
                         < uncertainty_threshold
                     ).astype(
                         np.uint8
-                    )
+                    ) * 255
 
                     st.subheader(
                         "🎯 Confidence Mask"
